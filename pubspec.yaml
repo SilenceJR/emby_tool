@@ -37,6 +37,14 @@ dependencies:
   cupertino_icons: ^1.0.2
   dio: any
   get: any
+  sqlite3: any
+  sqlite3_flutter_libs: any
+  flutter_animate: any
+  animations: any
+  pull_to_refresh: any
+  path: any
+  logger: any
+  google_fonts: any
 
 dev_dependencies:
   flutter_test:
@@ -88,5 +96,9 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  fonts:
+    - family: zhiMangXing
+      fonts:
+        - asset: assets/fonts/ZhiMangXing-Regular.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
